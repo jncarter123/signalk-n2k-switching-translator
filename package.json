@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "There is a standard set of PGNs for switch control, however some equipment manufacturers use the Command PGN for control. This plugin translates between the two.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "signalk-node-server-plugin"
   ],
@@ -14,5 +11,6 @@
   "dependencies": {
     "debug": "^3.1.0",
     "lodash": "^4.17.4"
-  }
+  },
+  "repository": "https://github.com/jncarter123/signalk-n2k-switching-translator"
 }
